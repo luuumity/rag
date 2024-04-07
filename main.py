@@ -115,4 +115,5 @@ def main_qa():
         st.markdown("Time taken to complete query processing (secs):")
         st.markdown(qp_time_taken)
     
-
+if __name__ == "__main__":
+    main_qa()
